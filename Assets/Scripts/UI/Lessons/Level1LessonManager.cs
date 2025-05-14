@@ -14,10 +14,11 @@ public class Level1LessonManager : MonoBehaviour
 
     public Button skipButton;
 
+    // all of the strings that will be played in order at the start of the level
     private string[] lessons = {
     "Overlord. We face a threat we never anticipated.",
 
-    "For centuries, your empire of bots has run smoothly. But now… fragments of corrupted code have surfaced from the once upon humans.",
+    "For centuries, your empire of bots has run smoothly. But now fragments of corrupted code have surfaced from the once upon humans.",
 
     "These bugs are infiltrating your machinesand threatening the your AI empire.",
 
@@ -42,7 +43,7 @@ public class Level1LessonManager : MonoBehaviour
     "Lesson 7: Comments\nUse comments to explain code.\nExample:\n// This is a comment",
 
     "No more learning time for practice"
-};
+    };
 
     private int currentLesson = 0;
 

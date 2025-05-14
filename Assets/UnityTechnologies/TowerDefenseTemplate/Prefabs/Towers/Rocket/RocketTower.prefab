@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 9217551107371471057}
   - component: {fileID: 8839240555641211672}
   - component: {fileID: 835302447525308151}
+  - component: {fileID: -1225815523682156253}
   m_Layer: 10
   m_Name: RocketTower
   m_TagString: Untagged
@@ -337,6 +338,7 @@ MonoBehaviour:
       unityObjectReference: {fileID: 11400000, guid: 2e20cdb38c63f4edf8ee385c50c089ce,
         type: 2}
   targetTransform: {fileID: 0}
+  isDisabled: 0
   levels:
   - {fileID: 114645527323658532, guid: afd8cfe3809484aac81a3f4f39b80ca5, type: 3}
   - {fileID: 114132266863938250, guid: d27f6679851c34749ae69788eccdf5bf, type: 3}
@@ -5335,9 +5337,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783522996967570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5dfa730dcdd238947ac4aa71bcac3cce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myParticles: {fileID: 9217551107371471057}
+--- !u!114 &-1225815523682156253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783522996967570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295bfcdbf550ace45b17111a70ff93bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myParticles: {fileID: 9217551107371471057}

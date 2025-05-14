@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 114571337826240766}
   - component: {fileID: 2805890055025883639}
   - component: {fileID: -2584809428539530803}
+  - component: {fileID: 6301531113318509458}
   m_Layer: 10
   m_Name: LaserTower
   m_TagString: Untagged
@@ -5194,6 +5195,19 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &6301531113318509458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444973102034290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295bfcdbf550ace45b17111a70ff93bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myParticles: {fileID: 2805890055025883639}
 --- !u!1 &1533647513546944
 GameObject:
   m_ObjectHideFlags: 0
